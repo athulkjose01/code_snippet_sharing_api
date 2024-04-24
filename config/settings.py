@@ -208,4 +208,6 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 
-
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
